@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD46A57B2335E935008C5E6A /* SharedConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD46A57A2335E935008C5E6A /* SharedConstants.swift */; };
+		AD46A57E2335EB69008C5E6A /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD46A57D2335EB69008C5E6A /* NetworkClient.swift */; };
+		AD46A5802335F8AF008C5E6A /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD46A57F2335F8AF008C5E6A /* DataModel.swift */; };
+		AD5B267B232E4B4D00B26F67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B267A232E4B4D00B26F67 /* AppDelegate.swift */; };
+		AD5B267D232E4B4D00B26F67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B267C232E4B4D00B26F67 /* ViewController.swift */; };
+		AD5B2680232E4B4D00B26F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5B267E232E4B4D00B26F67 /* Main.storyboard */; };
+		AD5B2682232E4B4F00B26F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5B2681232E4B4F00B26F67 /* Assets.xcassets */; };
+		AD5B2685232E4B4F00B26F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5B2683232E4B4F00B26F67 /* LaunchScreen.storyboard */; };
+		AD5B2693232E4CE100B26F67 /* ParentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B2691232E4CE100B26F67 /* ParentTableViewCell.swift */; };
+		AD5B2694232E4CE100B26F67 /* ParentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD5B2692232E4CE100B26F67 /* ParentTableViewCell.xib */; };
+		AD5B2697232E4E5200B26F67 /* ChildTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B2695232E4E5200B26F67 /* ChildTableViewCell.swift */; };
+		AD5B2698232E4E5200B26F67 /* ChildTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD5B2696232E4E5200B26F67 /* ChildTableViewCell.xib */; };
+		AD5B269B232E533600B26F67 /* ChildVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B269A232E533600B26F67 /* ChildVO.swift */; };
+		AD5B269D232E53B100B26F67 /* ParentVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5B269C232E53B100B26F67 /* ParentVO.swift */; };
+		D58BDD52A6549686ABE6C790 /* Pods_NestedTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968CEB28E2CF2B7B60BAEA27 /* Pods_NestedTableView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EE4C313822E9E320A41A29C /* Pods-NestedTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView.debug.xcconfig"; path = "Target Support Files/Pods-NestedTableView/Pods-NestedTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		968CEB28E2CF2B7B60BAEA27 /* Pods_NestedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD46A57A2335E935008C5E6A /* SharedConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedConstants.swift; sourceTree = "<group>"; };
+		AD46A57D2335EB69008C5E6A /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		AD46A57F2335F8AF008C5E6A /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AD5B2677232E4B4D00B26F67 /* NestedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5B267A232E4B4D00B26F67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD5B267C232E4B4D00B26F67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD5B267F232E4B4D00B26F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD5B2681232E4B4F00B26F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD5B2684232E4B4F00B26F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD5B2686232E4B4F00B26F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5B2691232E4CE100B26F67 /* ParentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentTableViewCell.swift; sourceTree = "<group>"; };
+		AD5B2692232E4CE100B26F67 /* ParentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParentTableViewCell.xib; sourceTree = "<group>"; };
+		AD5B2695232E4E5200B26F67 /* ChildTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTableViewCell.swift; sourceTree = "<group>"; };
+		AD5B2696232E4E5200B26F67 /* ChildTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildTableViewCell.xib; sourceTree = "<group>"; };
+		AD5B269A232E533600B26F67 /* ChildVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildVO.swift; sourceTree = "<group>"; };
+		AD5B269C232E53B100B26F67 /* ParentVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentVO.swift; sourceTree = "<group>"; };
+		FFD4E57F4A906B140670C805 /* Pods-NestedTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView.release.xcconfig"; path = "Target Support Files/Pods-NestedTableView/Pods-NestedTableView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD5B2674232E4B4D00B26F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58BDD52A6549686ABE6C790 /* Pods_NestedTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F2CD1251623CAF4AC09BF62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968CEB28E2CF2B7B60BAEA27 /* Pods_NestedTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD46A5762335E8F6008C5E6A /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		AD46A5772335E8FD008C5E6A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				AD46A57F2335F8AF008C5E6A /* DataModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		AD46A5782335E902008C5E6A /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				AD46A57A2335E935008C5E6A /* SharedConstants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		AD46A5792335E907008C5E6A /* networkClients */ = {
+			isa = PBXGroup;
+			children = (
+				AD46A57D2335EB69008C5E6A /* NetworkClient.swift */,
+			);
+			path = networkClients;
+			sourceTree = "<group>";
+		};
+		AD5B266E232E4B4D00B26F67 = {
+			isa = PBXGroup;
+			children = (
+				AD5B2679232E4B4D00B26F67 /* NestedTableView */,
+				AD5B2678232E4B4D00B26F67 /* Products */,
+				FDE776AE3C9955EB3D55F8A2 /* Pods */,
+				9F2CD1251623CAF4AC09BF62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5B2678232E4B4D00B26F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B2677232E4B4D00B26F67 /* NestedTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5B2679232E4B4D00B26F67 /* NestedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				AD46A5792335E907008C5E6A /* networkClients */,
+				AD46A5782335E902008C5E6A /* utils */,
+				AD46A5772335E8FD008C5E6A /* models */,
+				AD46A5762335E8F6008C5E6A /* components */,
+				AD5B2699232E532800B26F67 /* vos */,
+				AD5B2690232E4B7600B26F67 /* viewcontroller */,
+				AD5B268F232E4B6700B26F67 /* storyboard */,
+				AD5B268C232E4B5500B26F67 /* cell */,
+				AD5B267A232E4B4D00B26F67 /* AppDelegate.swift */,
+				AD5B2681232E4B4F00B26F67 /* Assets.xcassets */,
+				AD5B2683232E4B4F00B26F67 /* LaunchScreen.storyboard */,
+				AD5B2686232E4B4F00B26F67 /* Info.plist */,
+			);
+			path = NestedTableView;
+			sourceTree = "<group>";
+		};
+		AD5B268C232E4B5500B26F67 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B268E232E4B6000B26F67 /* swift */,
+				AD5B268D232E4B5B00B26F67 /* nib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		AD5B268D232E4B5B00B26F67 /* nib */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B2696232E4E5200B26F67 /* ChildTableViewCell.xib */,
+				AD5B2692232E4CE100B26F67 /* ParentTableViewCell.xib */,
+			);
+			path = nib;
+			sourceTree = "<group>";
+		};
+		AD5B268E232E4B6000B26F67 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B2691232E4CE100B26F67 /* ParentTableViewCell.swift */,
+				AD5B2695232E4E5200B26F67 /* ChildTableViewCell.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		AD5B268F232E4B6700B26F67 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B267E232E4B4D00B26F67 /* Main.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		AD5B2690232E4B7600B26F67 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B267C232E4B4D00B26F67 /* ViewController.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		AD5B2699232E532800B26F67 /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				AD5B269A232E533600B26F67 /* ChildVO.swift */,
+				AD5B269C232E53B100B26F67 /* ParentVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		FDE776AE3C9955EB3D55F8A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE4C313822E9E320A41A29C /* Pods-NestedTableView.debug.xcconfig */,
+				FFD4E57F4A906B140670C805 /* Pods-NestedTableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD5B2676232E4B4D00B26F67 /* NestedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD5B2689232E4B4F00B26F67 /* Build configuration list for PBXNativeTarget "NestedTableView" */;
+			buildPhases = (
+				3B1466B5FCC8240BCDAAFDEC /* [CP] Check Pods Manifest.lock */,
+				AD5B2673232E4B4D00B26F67 /* Sources */,
+				AD5B2674232E4B4D00B26F67 /* Frameworks */,
+				AD5B2675232E4B4D00B26F67 /* Resources */,
+				894EDC765B4CF6ED94099424 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedTableView;
+			productName = NestedTableView;
+			productReference = AD5B2677232E4B4D00B26F67 /* NestedTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD5B266F232E4B4D00B26F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Aye Myat Minn";
+				TargetAttributes = {
+					AD5B2676232E4B4D00B26F67 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AD5B2672232E4B4D00B26F67 /* Build configuration list for PBXProject "NestedTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD5B266E232E4B4D00B26F67;
+			productRefGroup = AD5B2678232E4B4D00B26F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD5B2676232E4B4D00B26F67 /* NestedTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD5B2675232E4B4D00B26F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5B2685232E4B4F00B26F67 /* LaunchScreen.storyboard in Resources */,
+				AD5B2694232E4CE100B26F67 /* ParentTableViewCell.xib in Resources */,
+				AD5B2682232E4B4F00B26F67 /* Assets.xcassets in Resources */,
+				AD5B2680232E4B4D00B26F67 /* Main.storyboard in Resources */,
+				AD5B2698232E4E5200B26F67 /* ChildTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B1466B5FCC8240BCDAAFDEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		894EDC765B4CF6ED94099424 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NestedTableView/Pods-NestedTableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NestedTableView/Pods-NestedTableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NestedTableView/Pods-NestedTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD5B2673232E4B4D00B26F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD46A57B2335E935008C5E6A /* SharedConstants.swift in Sources */,
+				AD5B269B232E533600B26F67 /* ChildVO.swift in Sources */,
+				AD5B267D232E4B4D00B26F67 /* ViewController.swift in Sources */,
+				AD5B269D232E53B100B26F67 /* ParentVO.swift in Sources */,
+				AD5B267B232E4B4D00B26F67 /* AppDelegate.swift in Sources */,
+				AD5B2697232E4E5200B26F67 /* ChildTableViewCell.swift in Sources */,
+				AD5B2693232E4CE100B26F67 /* ParentTableViewCell.swift in Sources */,
+				AD46A57E2335EB69008C5E6A /* NetworkClient.swift in Sources */,
+				AD46A5802335F8AF008C5E6A /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD5B267E232E4B4D00B26F67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD5B267F232E4B4D00B26F67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD5B2683232E4B4F00B26F67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD5B2684232E4B4F00B26F67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD5B2687232E4B4F00B26F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD5B2688232E4B4F00B26F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD5B268A232E4B4F00B26F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE4C313822E9E320A41A29C /* Pods-NestedTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amm.NestedTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD5B268B232E4B4F00B26F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD4E57F4A906B140670C805 /* Pods-NestedTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amm.NestedTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD5B2672232E4B4D00B26F67 /* Build configuration list for PBXProject "NestedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5B2687232E4B4F00B26F67 /* Debug */,
+				AD5B2688232E4B4F00B26F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD5B2689232E4B4F00B26F67 /* Build configuration list for PBXNativeTarget "NestedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD5B268A232E4B4F00B26F67 /* Debug */,
+				AD5B268B232E4B4F00B26F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD5B266F232E4B4D00B26F67 /* Project object */;
+}
